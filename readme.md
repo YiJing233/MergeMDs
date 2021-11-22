@@ -6,9 +6,13 @@
 
 ## 使用方法
 
-windows: 打开文件夹，执行 `cargo run -- main .\example`，在父级文件夹出现output.md文件
+前提是配置好rustup和cargo
 
-macos：打开文件夹，执行 `cargo run -- main ./example`，在父级文件夹出现output.md文件
+`git clone https://github.com/YiJing233/MergeMDs.git`
+
+windows: 进入项目，执行 `cargo run -- main .\example`，在父级文件夹出现output.md文件
+
+macos：进入项目，执行 `cargo run -- main ./example`，在父级文件夹出现output.md文件
 
 （尚且是第一版，还有改动空间）
 

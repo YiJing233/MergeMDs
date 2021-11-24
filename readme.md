@@ -21,9 +21,22 @@ macos：进入项目，执行 `cargo run -- main ./example`，在父级文件夹
 ```bash
 // macos
 $ cat *.md > output.md
+// 或
+$ cat *.md >> output.md // 追加写入
 ```
 
 ```bash
 // windows
 $ type *.md > output.md
+// 或
+$ type *.md >> output.md 
 ```
+
+### TODO：
+- 文件追加写入时 开头携带"\n"
+- 完成应用 CLI化 和 package 发布
+- 单测
+- 合理的错误处理
+- 补充 CLI 工具的帮助信息
+
+
